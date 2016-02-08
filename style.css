@@ -1,0 +1,159 @@
+body {background-color:yellow;}
+
+header {background-color:green; margin-top:10px; overflow:hidden;}
+
+footer {background-color: green; text-align:center; font-variant:small-caps; 
+	padding-bottom:30px; padding-top:30px; font-weight:bold;}
+
+h1 {text-align:center; color:white; font-size:3em; font-weight:bold;
+font-variant:small-caps;}
+
+p {margin-top:30px; font-size:1.5em;}
+
+.poloroid {
+	border: solid 1px black;
+	background:white;
+	text-align:center;
+	width: 250px;
+	padding: 20px;
+	margin-top: 10px;
+	margin-bottom: 20px;}
+	
+.gallery {width:250px;}
+
+.text_line { 
+	clear:both; 
+	background-color:#98bf21;
+}
+
+ol { margin:0px; }
+ol li { padding-top:5px; padding-bottom:5px; font-size:1.25em; }
+
+#wrap {
+	background-color:#FF7600; 
+	margin:0 auto; 
+	width:95%; 
+	text-align:left; 
+	border: 2px solid black; 
+	}
+
+#left{
+	width:24%;
+	float:left;
+	overflow:hidden;
+	padding:10px;
+}
+
+#right{
+	width:24%;
+	float:left;
+	overflow:hidden;
+	padding:10px;
+}
+
+#middle {
+	width:47%;
+	float:left;
+	overflow:hidden;
+	padding:10px;
+}
+
+#menubar { 
+	background-color: #036; 
+	width:100%;
+	overflow:hidden;
+	}
+
+#navlist li { 
+	display:block; 
+	float:left; 
+	font-weight:bold; 
+	text-align:center; 
+	font-variant:small-caps;
+	padding:10px; 
+}
+
+#navlist a { padding: 10px 10px; }
+
+		
+#navlist a:link, #navlist a:visited { 
+	color: #fff; 
+	background-color: #036; 
+	text-decoration: none; 
+	}
+
+#navlist a:hover { 
+	color: #fff; 
+	background-color: #98bf21; 
+	text-decoration: none; 
+	}
+	
+	
+#resume_content{
+	width:90%; 
+	margin:0 auto; 
+	padding:20px; 
+	text-align:left; 
+}
+
+#printheader {display:none;}
+
+a:link.resume , a:visited.resume  { 
+	color:black; 
+	text-decoration:underline; 
+}	
+
+a:hover, a:hover.resume { 
+	color: #036; 
+	background-color: #98bf21; 
+	text-decoration: underline; 
+}
+
+.printonly { display:none; }
+	
+
+table { border:1px; border-collapse:collapse; width:80%; margin-left:75px; }
+table,th, td { border: 1px solid #98bf21; }
+
+th { height:30px; background-color:#98bf21; color:white; text-align:center; vertical-align:middle; padding:15px;} 
+th.coursename { text-align:left;}
+
+td { text-align:center; height:30px; vertical-align:middle; padding:5px;}
+td.coursename { text-align:left;}
+
+caption { text-align:left;}
+
+.table_title {
+			font-size: 14pt;
+			font-weight: normal;
+			text-decoration: none;
+			font-variant: small-caps;
+			padding-bottom: 0px;
+			margin-top: 30px;
+			margin-bottom: 25px;
+		}	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
