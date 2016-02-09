@@ -23,6 +23,9 @@ a {text-decoration:none;}
 		
 a:hover {text-decoration: underline;}
 
+ul {font-type:sans-serif;
+font-color:black;}
+
 ul1 {
 	list-style-type:none;
 	text-align:center;
@@ -44,7 +47,7 @@ ul1 {
 
 .text_line { 
 	clear:both; 
-	background-color:#98bf21;
+	background-color:gray;
 }
 
 
@@ -148,9 +151,9 @@ a:hover, a:hover.resume {
 	
 
 table { border:1px; border-collapse:collapse; width:80%; margin-left:75px; }
-table,th, td { border: 1px solid #98bf21; }
+table,th, td { border: 1px solid gray; }
 
-th { height:30px; background-color:#98bf21; color:white; text-align:center; vertical-align:middle; padding:15px;} 
+th { height:30px; background-color:gray; color:white; text-align:center; vertical-align:middle; padding:15px;} 
 th.coursename { text-align:left;}
 
 td { text-align:center; height:30px; vertical-align:middle; padding:5px;}
