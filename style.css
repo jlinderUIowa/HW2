@@ -1,36 +1,65 @@
-body {background-color:yellow;}
+body {font-family:sans-serif; background-color:yellow;}
 
 header {background-color:green; margin-top:10px; overflow:hidden;}
 
 footer {background-color: green; text-align:center; font-variant:small-caps; 
 	padding-bottom:30px; padding-top:30px; font-weight:bold;}
 
-h1 {text-align:center; color:white; font-size:3em; font-weight:bold;
+h1 {text-align:left; color:white; font-size:3em; font-weight:bold;
 font-variant:small-caps;}
 
-p {margin-top:30px; font-size:1.5em;}
+h7 {text-align:left; color:white; font-size:1.5em; font-weight:bold; font-variant:small-caps;}
 
-.poloroid {
-	border: solid 1px black;
-	background:white;
+h8 {text-align:left; color:white; font-size:1em; font-weight:bold; font-variant:small-caps;}
+
+h9 {text-align:left; color:white; font-size:1em; font-weight:bold; font-variant:small-caps;}
+
+
+p {
+	margin:10px;
+}
+
+a {text-decoration:none;}
+		
+a:hover {text-decoration: underline;}
+
+ul1 {
+	list-style-type:none;
+	text-align:center;
+}
+
+.polaroid {
+	border: solid 1px black; 
+	background: white;
 	text-align:center;
 	width: 250px;
 	padding: 20px;
 	margin-top: 10px;
-	margin-bottom: 20px;}
-	
-.gallery {width:250px;}
+	margin-bottom: 20px;
+}
+
+.gallery {
+	width:250px;
+}
 
 .text_line { 
 	clear:both; 
 	background-color:#98bf21;
 }
 
+
+ul.daisylist {
+    list-style-type: none;
+    padding: 0px;
+    margin: 10px;}
+	
 ol { margin:0px; }
 ol li { padding-top:5px; padding-bottom:5px; font-size:1.25em; }
 
+
+
 #wrap {
-	background-color:#FF7600; 
+	background-color:white; 
 	margin:0 auto; 
 	width:95%; 
 	text-align:left; 
@@ -59,7 +88,7 @@ ol li { padding-top:5px; padding-bottom:5px; font-size:1.25em; }
 }
 
 #menubar { 
-	background-color: #036; 
+	background-color:orange; 
 	width:100%;
 	overflow:hidden;
 	}
@@ -87,7 +116,13 @@ ol li { padding-top:5px; padding-bottom:5px; font-size:1.25em; }
 	background-color: #98bf21; 
 	text-decoration: none; 
 	}
-	
+
+#daisy_list {
+	width:90%; 
+	margin:0 auto; 
+	padding:20px; 
+	text-align:left; 
+}
 	
 #resume_content{
 	width:90%; 
